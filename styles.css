@@ -1,0 +1,22 @@
+h1 {
+  color: #2a9d8f;
+}
+
+h3 {
+  color: #e9c46a;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+thead {
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid black;
+}
