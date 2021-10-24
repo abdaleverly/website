@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo John'
+                sh 'ssh 10.10.101.131 "cd /var/www/html/; git pull"'
             }
         }
     }
